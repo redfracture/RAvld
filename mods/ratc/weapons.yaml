@@ -1,10 +1,9 @@
 TeslaZap:
-	Range: 8c0
+	Range: 10c0
 	MinRange: 3c0
 
 MammothTusk:
 	Range: 8c0
-
 
 SCUD:
 	ReloadDelay: 120

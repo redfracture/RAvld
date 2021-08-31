@@ -1,16 +1,28 @@
 TSLA:
 	Power:
-		Amount: -150
+		Amount: -175
 	Health:
 		HP: 60000
 
 1TNK:
 	Mobile: 
 		Speed: 150
+	Health:
+		HP: 20000
+
+GAP:
+	CreatesShroud:
+		Range: 8c0
+
+HARV:
+	Armor:
+		Type: Light
 
 JEEP:
 	Mobile:
 		Speed: 200
+	Armament:
+		Weapon: HeavyMG
 
 ARTY:
 	Valued:
@@ -21,3 +33,7 @@ ARTY:
 AFLD:
 	ParatroopersPower@paratroopers:
 		ChargeInterval: 3750
+		
+ATEK:
+	GpsPower:
+		ChargeInterval: 1200
