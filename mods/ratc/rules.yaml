@@ -13,6 +13,7 @@ JEEP:
 		Speed: 200
 
 ARTY:
-	Armament: 8Inch
 	Valued:
 		Cost: 2000
+	Mobile:
+		Speed: 35

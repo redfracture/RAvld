@@ -7,3 +7,8 @@ MammothTusk:
 	
 SCUD:
 	ReloadDelay: 120
+
+155mm:
+	Range: 15c0
+		Warhead@1Dam: SpreadDamage
+			Damage: 46000
