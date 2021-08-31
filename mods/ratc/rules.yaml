@@ -1,0 +1,18 @@
+TSLA:
+	Power:
+		Amount: -150
+	Health:
+		HP: 60000
+
+1TNK:
+	Mobile: 
+		Speed: 150
+
+JEEP:
+	Mobile:
+		Speed: 200
+
+ARTY:
+	Armament: 8inch
+	Valued:
+		Cost: 2000
