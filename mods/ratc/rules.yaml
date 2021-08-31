@@ -1,3 +1,23 @@
 TSLA:
-	Armament:
-		Weapon: TeslaLaser
+	Power:
+		Amount: -150
+	Health:
+		HP: 60000
+
+1TNK:
+	Mobile: 
+		Speed: 150
+
+JEEP:
+	Mobile:
+		Speed: 200
+
+ARTY:
+	Valued:
+		Cost: 2000
+	Mobile:
+		Speed: 35
+
+AFLD:
+	ParatroopersPower@paratroopers:
+		ChargeInterval: 3750
