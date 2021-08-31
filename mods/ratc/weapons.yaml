@@ -1,6 +1,6 @@
 TeslaLaser:
-	ReloadDelay: 40
-	Range: 7c512
+	ReloadDelay: 20
+	Range: 20c0
 	Report: tesla1.aud
 	Projectile: LaserZap
    		Width: 85
@@ -8,7 +8,7 @@ TeslaLaser:
 		ZOffset: 2047
 	Warhead@1Dam: SpreadDamage
 		Spread: 42
-		Damage: 36000
+		Damage: 360000
 		DamageTypes: Prone50Percent, TriggerProne, FireDeath
 	Warhead@2Smu: LeaveSmudge
 		SmudgeType: Scorch
