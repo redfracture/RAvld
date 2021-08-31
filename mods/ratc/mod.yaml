@@ -1,5 +1,5 @@
 Metadata:
-	Title: Red Alert (VLD)
+	Title: Red Alert (Tesla Coil Example)
 	Version: release-20210321
 	Website: https://www.openra.net
 	WebIcon32: https://www.openra.net/images/icons/ra_32x32.png
@@ -263,7 +263,7 @@ ColorValidator:
 	TeamColorPresets: f7b3b3, f50606, 98331f, f57606, f7bb06, f861a4, da06f3, ddb8ff, 06f739, cef7b2, 200738, 280df6, 2f86f2, 76d2f8, 34ba93, 391d1d
 
 ModContent:
-	InstallPromptMessage: Red Alert (VLC)
+	InstallPromptMessage: Red Alert (Tesla Coil Example)
 	QuickDownload: quickinstall
 	HeaderMessage: Game content may be extracted from the original game discs or an\nexisting digital install. OpenRA can also download the base game\nfiles from an online mirror of the 2008 freeware release of RA.
 	Packages:
