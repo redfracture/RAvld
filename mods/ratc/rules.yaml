@@ -11,3 +11,8 @@ TSLA:
 JEEP:
 	Mobile:
 		Speed: 200
+
+ARTY:
+	Armament: 8Inch
+	Valued:
+		Cost: 2000
