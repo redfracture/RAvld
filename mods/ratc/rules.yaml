@@ -15,6 +15,20 @@ GUN:
 		HP: 20000
 
 FACT:
+	GrantConditionOnFaction@Allies:
+		Condition: allied.player
+		Factions: allies,england,france,germany
+		ResetOnOwnerChange: True
+	Transforms:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoMobile:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoPassenger:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoRepairable:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoTransforms:
+		RequiresCondition: factundeploy && build-incomplete && allied.player
 	RevealsShroud:
 		Range: 8c0
 
@@ -47,7 +61,7 @@ ARTY:
 AFLD:
 	ParatroopersPower@paratroopers:
 		ChargeInterval: 3750
-		
+
 ATEK:
 	GpsPower:
 		RevealDelay: 50
