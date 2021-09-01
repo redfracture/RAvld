@@ -4,6 +4,10 @@ TSLA:
 	Health:
 		HP: 60000
 
+GUN:
+	Health:
+		HP: 100000
+
 1TNK:
 	Mobile: 
 		Speed: 150
@@ -11,8 +15,14 @@ TSLA:
 		HP: 20000
 
 FACT:
-	Transforms:
-		Factions: allies, england, france, germany
+	GrantConditionOnFaction@Allies:
+		Condition: allied.player
+		Factions: allies,england,france,germany
+		ResetOnOwnerChange: True
+	TransformsIntoMobile:
+		RequiresCondition: factundeploy && allied.player
+		Locomotor: heavywheeled
+		RequiresForceMove: true
 
 MCV:
 	Valued:
