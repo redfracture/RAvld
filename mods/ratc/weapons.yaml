@@ -12,3 +12,6 @@ SCUD:
 	Range: 15c0
 		Warhead@1Dam: SpreadDamage
 			Damage: 46000
+
+25mm:
+	Range: 3c768

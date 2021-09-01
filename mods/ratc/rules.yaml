@@ -51,6 +51,8 @@ JEEP:
 		Weapon: Flamer
 		LocalOffset: 700,0,500
 		FireDelay: 8
+	Health:
+		HP: 10000
 
 ARTY:
 	Valued:
@@ -66,3 +68,11 @@ ATEK:
 	GpsPower:
 		RevealDelay: 50
 		ChargeInterval: 1200
+		
+YAK:
+	Health:
+		HP: 10000
+
+^Infantry:
+	RevealsShroud:
+		Range: 8c0
