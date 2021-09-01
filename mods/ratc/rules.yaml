@@ -10,6 +10,14 @@ TSLA:
 	Health:
 		HP: 20000
 
+FACT:
+	Transforms:
+		Factions: allies, england, france, germany
+
+MCV:
+	Valued:
+		Cost: 6000
+
 GAP:
 	CreatesShroud:
 		Range: 8c0
@@ -21,8 +29,10 @@ HARV:
 JEEP:
 	Mobile:
 		Speed: 200
-	Armament:
-		Weapon: HeavyMG
+	Armament@SECONDARY:
+		Weapon: Flamer
+		LocalOffset: 700,0,500
+		FireDelay: 8
 
 ARTY:
 	Valued:
