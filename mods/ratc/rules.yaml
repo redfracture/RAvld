@@ -36,4 +36,4 @@ AFLD:
 		
 ATEK:
 	GpsPower:
-		ChargeInterval: 1200
+		RevealDelay: 50
