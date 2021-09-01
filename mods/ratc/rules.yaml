@@ -13,6 +13,24 @@ GUN:
 		Speed: 150
 	Health:
 		HP: 20000
+	RevealsShroud:
+		MinRange: 3c0
+		Range: 4c0
+		
+2TNK:
+	RevealsShroud:
+		MinRange: 3c0
+		Range: 4c0
+		
+3TNK:
+	RevealsShroud:
+		MinRange: 3c0
+		Range: 4c0
+
+4TNK:
+	RevealsShroud:
+		MinRange: 3c0
+		Range: 5c0
 
 FACT:
 	GrantConditionOnFaction@Allies:
@@ -75,4 +93,14 @@ YAK:
 
 ^Infantry:
 	RevealsShroud:
+		Range: 6c0
+		
+DOG:
+	RevealsShroud:
 		Range: 8c0
+		
+MSUB:
+	Health:
+		HP: 20000
+	Valued:
+		Cost: 1000	

@@ -6,7 +6,12 @@ MammothTusk:
 	Range: 8c0
 
 SCUD:
+	Projectile: Bullet
+		Inaccuracy: 400
 	ReloadDelay: 120
+	Range: 11c0
+	Warhead@1Dam: SpreadDamage
+		Damage: 6000
 
 155mm:
 	Range: 15c0
@@ -15,3 +20,9 @@ SCUD:
 
 25mm:
 	Range: 3c768
+	
+SubMissile:
+	Range: 5c0
+
+SubMissileAA:
+	Damage: 500
