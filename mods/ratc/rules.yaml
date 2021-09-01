@@ -19,10 +19,16 @@ FACT:
 		Condition: allied.player
 		Factions: allies,england,france,germany
 		ResetOnOwnerChange: True
+	Transforms:
+		RequiresCondition: factundeploy && allied.player
 	TransformsIntoMobile:
 		RequiresCondition: factundeploy && allied.player
-		Locomotor: heavywheeled
-		RequiresForceMove: true
+	TransformsIntoPassenger:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoRepairable:
+		RequiresCondition: factundeploy && allied.player
+	TransformsIntoTransforms:
+		RequiresCondition: factundeploy && build-incomplete && allied.player
 
 MCV:
 	Valued:
