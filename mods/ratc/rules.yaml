@@ -15,20 +15,8 @@ GUN:
 		HP: 20000
 
 FACT:
-	GrantConditionOnFaction@Allies:
-		Condition: allied.player
-		Factions: allies,england,france,germany
-		ResetOnOwnerChange: True
-	Transforms:
-		RequiresCondition: factundeploy && allied.player
-	TransformsIntoMobile:
-		RequiresCondition: factundeploy && allied.player
-	TransformsIntoPassenger:
-		RequiresCondition: factundeploy && allied.player
-	TransformsIntoRepairable:
-		RequiresCondition: factundeploy && allied.player
-	TransformsIntoTransforms:
-		RequiresCondition: factundeploy && build-incomplete && allied.player
+	RevealsShroud:
+		Range: 8c0
 
 MCV:
 	Valued:
@@ -52,9 +40,9 @@ JEEP:
 
 ARTY:
 	Valued:
-		Cost: 2000
+		Cost: 1000
 	Mobile:
-		Speed: 35
+		Speed: 100
 
 AFLD:
 	ParatroopersPower@paratroopers:
@@ -63,3 +51,4 @@ AFLD:
 ATEK:
 	GpsPower:
 		RevealDelay: 50
+		ChargeInterval: 1200
